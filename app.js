@@ -24,7 +24,7 @@ function showTime(){
     s = "0" + s
   }
 
-  display.textContent = h + ":" + m + ":" + s;
+  display.textContent = h +" " + ":" + m +" " + ":" + s;
 }
 
 function startTime(){
